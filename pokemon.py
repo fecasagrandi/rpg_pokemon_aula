@@ -6,10 +6,11 @@ class Pokemon:
     def __str__(self):
         return "{} ({})".format(self.especie, self.tipo)
 
+    def atacar(self, pokemon):
+        print("{} atacou o {}".format(self.especie, pokemon.especie))
+
 meu_pokemon = Pokemon("Fogo", "Charmander")
 pokemon_amigo = Pokemon("Elétrico", "Pikachu")
-pokemon_gelo = Pokemon("Terra", "Groudon")
 
-print(meu_pokemon)
-print(pokemon_amigo)
-print(pokemon_gelo)
+meu_pokemon.atacar(pokemon_amigo)
+pokemon_amigo.atacar(meu_pokemon)
