@@ -1,35 +1,18 @@
-# RPG Pokémon — Aula de Python OO
+# RPG Pokémon
 
-Projeto de estudo desenvolvido durante o curso de **Cybersecurity da Solyd**,
-no módulo de Python com **Orientação a Objetos**.
+Projeto que estou fazendo na aula de Python do curso de Cybersecurity da Solyd.
 
-A ideia é construir um mini RPG de Pokémon como forma de praticar os
-conceitos de POO: classes, objetos, atributos, métodos e construtores.
-
-## Conceitos praticados
-
-- Definição de classes com `class`
-- Método construtor `__init__`
-- Atributos de instância (`self`)
-- Instanciação e acesso aos atributos de objetos
-
-## Estrutura
-
-```
-pokemon_game/
-├── main.py      # ponto de entrada do projeto
-├── pokemon.py   # classe Pokemon
-└── README.md
-```
+A ideia é montar um mini RPG de Pokémon pra treinar orientação a objetos na
+prática: classes, objetos, atributos e métodos.
 
 ## Como rodar
-
-Requer Python 3. Não há dependências externas.
 
 ```bash
 python pokemon.py
 ```
 
+Precisa só do Python 3, não tem dependência externa.
+
 ## Status
 
-Em andamento — o projeto evolui conforme as aulas avançam.
+Em andamento, vou atualizando conforme as aulas avançam.
