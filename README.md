@@ -11,7 +11,7 @@ prática: classes, objetos, atributos e métodos.
 python pokemon.py
 ```
 
-Precisa só do Python 3, não tem dependência externa.
+Precisa só do Python 3, não tem dependência externa. Ou sei lá, clica no botão verde no canto superior direito!
 
 ## Status
 
