@@ -9,8 +9,11 @@ class Pokemon:
     def atacar(self, pokemon):
         print("{} atacou o {}".format(self.especie, pokemon.especie))
 
+    def defender(self, pokemon):
+        print("{} defendeu o `{}".format(pokemon.especie, pokemon.tipo))
+
 meu_pokemon = Pokemon("Fogo", "Charmander")
 pokemon_amigo = Pokemon("Elétrico", "Pikachu")
 
-meu_pokemon.atacar(pokemon_amigo)
-pokemon_amigo.atacar(meu_pokemon)
+meu_pokemon.defender(pokemon_amigo)
+
